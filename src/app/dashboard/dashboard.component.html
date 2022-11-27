@@ -1,0 +1,42 @@
+<div class="container projectList">
+  <mat-accordion>
+    <mat-expansion-panel hideToggle>
+      <mat-expansion-panel-header>
+        <mat-panel-title> CURD</mat-panel-title>
+        <mat-panel-description>
+          Curd using Angular and Laravel APIs
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div>
+        <app-curdproject></app-curdproject>
+      </div>
+    </mat-expansion-panel>
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title> Weather Prediction</mat-panel-title>
+        <mat-panel-description>
+          Weather Prediction App using Angular and open web APIs 
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div> 
+        <app-weather></app-weather>
+      </div>
+    </mat-expansion-panel>
+
+    <mat-expansion-panel
+      (opened)="panelOpenState = true"
+      (closed)="panelOpenState = false"
+    >
+      <mat-expansion-panel-header>
+        <mat-panel-title> Project Two </mat-panel-title>
+        <mat-panel-description>
+          This is a Third Project
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div>I'm visible because I am open</div>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>

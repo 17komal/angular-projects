@@ -1,0 +1,34 @@
+.curdTable {
+    height:50vh;
+    overflow-y: scroll;
+    
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  #addBtn{
+   
+    background-color: darkgreen;
+    color: #fff;
+  }
+
+  .form
+  {
+    width: 500px;
+  }
+  .form-group
+  {  
+    padding: 5px;
+  }
+  /* .headerLine{
+    margin-bottom: 30px;
+  } */
+  /* .heading {
+    display: inline;
+   
+  }
+  #closeModal
+  {
+    float: right;
+    
+  } */

@@ -1,0 +1,16 @@
+mat-grid-tile {
+    background: gray;
+  
+  }
+  #matGrid{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+   
+  }
+  .projectList{
+    height:75%;
+    overflow-y: auto;
+   
+  }
+  
